@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAGINA DE PRODUCTO</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <HEAder>
@@ -11,14 +12,55 @@
     </HEAder>
 
     <div class="container-title">zapatos</div>
+
     <main>
+        <div class="container-img"></div>
+        <img src="https://ae01.alicdn.com/kf/Ab9fd26c87c894d9296ed98bea6333fabE.jpg_640x640Q90.jpg_.webp" alt="imagen-producto">
+        <div>
+            <div class="container-info-product">
+                <div class="container-price">
+                  <span>$100.00</span>   
+                  <i class="fa-solid fa-chevron-right"></i>                   
+                </div>
 
-
+                <div class="container-details-product">
+                    <div class="form-group">
+                        <label for="colour">color</label>
+                        <select name="colour" id="colour">
+                            <option disabled selected value="">
+                                Escoge una opcion
+                            </option>
+                            <option value="Rojo">rojo</option>
+                            <option value="blanco">blanco</option>
+                            <option value="beige">beige</option>
+                        </select>
+                    </div><div class="container-price">
+                        <span>$100.00</span>   
+                        <i class="fa-solid fa-chevron-right"></i>                   
+                      </div>
+      
+                      <div class="container-details-product">
+                          <div class="form-group">
+                              <label for="size">talla</label>
+                              <select name="size" id="size">
+                                  <option disabled selected value="">
+                                      Escoge una opcion
+                                  </option>
+                                  <option value="40">40</option>
+                                  <option value="42">42</option>
+                                  <option value="43">43</option>
+                                  <option value="44">44</option>
+                              </select>
+                          </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
          <p>Footer</p>      
     </footer>
     <script src="https://kit.fontawesome.com/daaa9c6519.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
